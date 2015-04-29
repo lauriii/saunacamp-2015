@@ -1,6 +1,6 @@
 uuid: 4259d624-471f-4881-a300-d52ce6a472ca
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -8,7 +8,7 @@ dependencies:
     - saunacamp
 id: saunacamp_help
 theme: saunacamp
-region: header
+region: '-1'
 weight: 0
 provider: null
 plugin: help_block
