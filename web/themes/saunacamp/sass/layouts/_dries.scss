@@ -1,0 +1,19 @@
+.l-dries {
+  background: $main-color-1;
+  img {
+    width: 110%;
+    height: auto;
+    transform: rotate(-5deg);
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-top: -100px;
+  }
+  .l-wrapper {
+    color: $text-inverse;
+    padding: 200px 0;
+    text-align: center;
+    a {
+      color: $text-inverse;
+    }
+  }
+}
