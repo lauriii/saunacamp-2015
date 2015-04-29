@@ -4,3 +4,12 @@
   padding: 70px 0 280px;
   text-align: center;
 }
+
+.l-twitter-feed {
+  background-color: $main-color-1;
+  padding: 20px 0;
+  .twitter-timeline {
+    margin: 0 auto!important;
+    display: block!important;
+  }
+}
