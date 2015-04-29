@@ -25,5 +25,10 @@ body {
   right: 0;
 }
 
+.l-wrapper {
+  max-width: 1200px;
+  padding: 0 40px;
+}
+
 /* No files to import found in blocks/**\/* */
 /* No files to import found in components/**\/* */
