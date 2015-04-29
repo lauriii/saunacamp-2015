@@ -9,7 +9,12 @@ a {
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 2.5em;
+  font-size: 1.5em;
+}
+@media (min-width: 900px) {
+  body {
+    font-size: 2.5em;
+  }
 }
 
 .l-dries {
@@ -42,6 +47,12 @@ body {
   width: 50%;
   top: 0;
   position: absolute;
+}
+@media (min-width: 1500px) {
+  .l-header__left,
+  .l-header__right {
+    height: 95%;
+  }
 }
 
 .l-header__left {
@@ -77,4 +88,13 @@ body {
 }
 
 /* No files to import found in blocks/**\/* */
-/* No files to import found in components/**\/* */
+.c-logo {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.c-logo__image {
+  height: auto;
+  width: 100%;
+}
