@@ -23,4 +23,5 @@ content:
   links:
     weight: 100
 hidden:
+  field_company_homepage: true
   field_logo: true

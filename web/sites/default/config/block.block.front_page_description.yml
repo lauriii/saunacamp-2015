@@ -1,0 +1,32 @@
+uuid: 77147ff9-3814-4bea-8300-c507d81f8d20
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.main_content
+  module:
+    - system
+    - views
+  theme:
+    - saunacamp
+id: front_page_description
+theme: saunacamp
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:main_content-block_1'
+settings:
+  id: 'views_block:main_content-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  cache:
+    max_age: -1
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
