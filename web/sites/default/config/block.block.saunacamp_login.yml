@@ -1,6 +1,6 @@
 uuid: 08b63c02-1f28-4bdf-9002-2b831b7557bd
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - user
@@ -8,7 +8,7 @@ dependencies:
     - saunacamp
 id: saunacamp_login
 theme: saunacamp
-region: header
+region: '-1'
 weight: 0
 provider: null
 plugin: user_login_block

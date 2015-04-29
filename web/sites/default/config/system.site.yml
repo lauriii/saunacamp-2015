@@ -3,9 +3,9 @@ name: 'Drupal Saunacamp 2015'
 mail: saunacamp@example.com
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: node
+  403: etusivu
+  404: etusivu
+  front: etusivu
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

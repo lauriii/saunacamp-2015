@@ -1,6 +1,6 @@
 uuid: e628c04f-cbd9-4729-8200-b3663fdd6da9
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -10,7 +10,7 @@ dependencies:
     - saunacamp
 id: saunacamp_footer
 theme: saunacamp
-region: header
+region: '-1'
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

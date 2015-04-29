@@ -1,6 +1,6 @@
 uuid: 91f6973d-8d0d-4593-a500-e4e246316342
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -10,7 +10,7 @@ dependencies:
     - saunacamp
 id: saunacamp_main_menu
 theme: saunacamp
-region: header
+region: '-1'
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

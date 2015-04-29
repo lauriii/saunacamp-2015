@@ -8,8 +8,8 @@ dependencies:
     - saunacamp
 id: saunacamp_powered
 theme: saunacamp
-region: header
-weight: 10
+region: footer
+weight: -6
 provider: null
 plugin: system_powered_by_block
 settings:
