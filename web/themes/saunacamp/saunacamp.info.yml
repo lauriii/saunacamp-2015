@@ -1,0 +1,20 @@
+name: Saunacamp
+base theme: classy
+package: Custom
+type: theme
+version: 1.0
+core: 8.x
+screenshot: 
+
+# Libraries
+libraries:
+  - saunacamp/base
+
+# Regions
+regions:
+  header: Header
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  messages: Messages
+  content: Content
+  footer: 'Footer'
