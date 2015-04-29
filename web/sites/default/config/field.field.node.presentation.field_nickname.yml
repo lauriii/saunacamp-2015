@@ -1,0 +1,23 @@
+uuid: 7da5d0d3-5a32-44c9-9412-1835c82db215
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nickname
+    - node.type.presentation
+  module:
+    - link
+id: node.presentation.field_nickname
+field_name: field_nickname
+entity_type: node
+bundle: presentation
+label: Nickname
+description: 'drupal.org nick of the user (as link to drupal org)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -4,25 +4,20 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.presentation.body
+    - field.field.node.presentation.field_name
+    - field.field.node.presentation.field_nickname
     - field.field.node.presentation.field_presenter
     - node.type.presentation
   module:
-    - text
     - user
 id: node.presentation.teaser
 targetEntityType: node
 bundle: presentation
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
   links:
     weight: 100
 hidden:
+  field_name: true
+  field_nickname: true
   field_presenter: true

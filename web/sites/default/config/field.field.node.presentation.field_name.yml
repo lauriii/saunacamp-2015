@@ -1,0 +1,21 @@
+uuid: bc410545-6219-4c65-bc00-cb652d3cd276
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.presentation
+id: node.presentation.field_name
+field_name: field_name
+entity_type: node
+bundle: presentation
+label: Name
+description: 'name of the presenter'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

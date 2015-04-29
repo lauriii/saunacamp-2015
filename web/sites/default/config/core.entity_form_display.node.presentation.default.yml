@@ -3,31 +3,38 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.presentation.body
+    - field.field.node.presentation.field_name
+    - field.field.node.presentation.field_nickname
     - field.field.node.presentation.field_presenter
     - node.type.presentation
   module:
     - image
+    - link
     - path
-    - text
 id: node.presentation.default
 targetEntityType: node
 bundle: presentation
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 31
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_name:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_nickname:
+    weight: 33
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
   field_presenter:
     weight: 32
     settings:
