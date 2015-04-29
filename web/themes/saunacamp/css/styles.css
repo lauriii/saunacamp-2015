@@ -1,6 +1,11 @@
-/* No files to import found in variables/**\/* */
 /* No files to import found in abstractions/**\/* */
-/* No files to import found in base/**\/* */
-/* No files to import found in layouts/**\/* */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.l-header {
+  border-top: 10px solid #77ae40;
+}
+
 /* No files to import found in blocks/**\/* */
 /* No files to import found in components/**\/* */
