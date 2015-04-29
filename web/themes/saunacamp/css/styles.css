@@ -1,6 +1,11 @@
 /* No files to import found in abstractions/**\/* */
+h1 {
+  font-size: 2em;
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
 }
 
 .l-header {
@@ -25,7 +30,15 @@ body {
   right: 0;
 }
 
+.l-main {
+  background: #000000;
+  color: #FFFFFF;
+  padding: 50px 0 150px;
+  text-align: center;
+}
+
 .l-wrapper {
+  margin: 0 auto;
   max-width: 1200px;
   padding: 0 40px;
 }
