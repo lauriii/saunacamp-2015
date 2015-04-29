@@ -1,0 +1,22 @@
+uuid: 08b63c02-1f28-4bdf-9002-2b831b7557bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - saunacamp
+id: saunacamp_login
+theme: saunacamp
+region: header
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

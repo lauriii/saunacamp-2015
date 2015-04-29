@@ -1,0 +1,26 @@
+uuid: 0f1558d5-3008-408d-a10b-119a91dba0b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - saunacamp
+id: saunacamp_account_menu
+theme: saunacamp
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+  level: 1
+  depth: 1
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: bce7755b-eba6-484e-bd2c-4457f6c4f304
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - saunacamp
+id: saunacamp_search
+theme: saunacamp
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

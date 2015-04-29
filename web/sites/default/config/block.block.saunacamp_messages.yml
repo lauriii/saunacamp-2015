@@ -1,0 +1,22 @@
+uuid: b48b4151-f104-44f8-af14-206b4c774b6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saunacamp
+id: saunacamp_messages
+theme: saunacamp
+region: messages
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }

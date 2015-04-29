@@ -1,0 +1,22 @@
+uuid: 4259d624-471f-4881-a300-d52ce6a472ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - saunacamp
+id: saunacamp_help
+theme: saunacamp
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }

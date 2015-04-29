@@ -1,0 +1,22 @@
+uuid: 89bcd1db-289f-4cf0-9006-6a3c4bd1ae25
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saunacamp
+id: saunacamp_breadcrumbs
+theme: saunacamp
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }
