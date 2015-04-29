@@ -1,0 +1,18 @@
+uuid: b4f6973c-344c-45ff-9d00-cf6fd5eae5a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_nickname
+field_name: field_nickname
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

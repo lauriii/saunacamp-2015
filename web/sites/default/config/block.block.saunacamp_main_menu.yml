@@ -11,7 +11,7 @@ dependencies:
 id: saunacamp_main_menu
 theme: saunacamp
 region: '-1'
-weight: 0
+weight: -2
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -1,6 +1,6 @@
 uuid: 17a19e20-a686-45f2-aa25-37e0803c504e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ dependencies:
     - saunacamp
 id: saunacamp_powered
 theme: saunacamp
-region: footer
+region: '-1'
 weight: -6
 provider: null
 plugin: system_powered_by_block
