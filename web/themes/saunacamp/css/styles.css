@@ -4,7 +4,25 @@ body {
 }
 
 .l-header {
-  border-top: 10px solid #77ae40;
+  position: relative;
+}
+
+.l-header__left,
+.l-header__right {
+  height: 70%;
+  width: 50%;
+  top: 0;
+  position: absolute;
+}
+
+.l-header__left {
+  background: linear-gradient(to right bottom, #77ae40 50%, rgba(0, 0, 0, 0) 50%);
+  left: 0;
+}
+
+.l-header__right {
+  background: linear-gradient(to left bottom, #000000 50%, rgba(0, 0, 0, 0) 50%);
+  right: 0;
 }
 
 /* No files to import found in blocks/**\/* */
