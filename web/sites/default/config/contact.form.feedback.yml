@@ -1,0 +1,10 @@
+uuid: 3031368f-2387-4d7c-9a01-1aad21ed2404
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - saunacamp@example.com
+reply: ''
+weight: 0

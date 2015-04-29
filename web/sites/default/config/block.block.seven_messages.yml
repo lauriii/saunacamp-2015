@@ -1,0 +1,22 @@
+uuid: 08216c54-d383-4ccf-9e05-5fdd05eb2d73
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+id: seven_messages
+theme: seven
+region: messages
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }

@@ -1,0 +1,38 @@
+uuid: 6611ce60-943f-48a2-a500-d7ac4e5d13de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_presenter
+    - node.type.presentation
+  module:
+    - image
+id: node.presentation.field_presenter
+field_name: field_presenter
+entity_type: node
+bundle: presentation
+label: Presenter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: image

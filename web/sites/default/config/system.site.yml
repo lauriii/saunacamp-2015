@@ -1,0 +1,12 @@
+uuid: 1939efaa-486c-4886-9034-529d70f53b1d
+name: 'Drupal Saunacamp 2015'
+mail: saunacamp@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

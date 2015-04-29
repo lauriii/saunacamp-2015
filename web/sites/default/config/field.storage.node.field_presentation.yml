@@ -1,0 +1,19 @@
+uuid: 4e7b14fa-6b2c-40c4-a711-174cd5f4efd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference
+    - node
+id: node.field_presentation
+field_name: field_presentation
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
