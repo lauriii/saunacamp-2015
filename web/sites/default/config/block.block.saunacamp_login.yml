@@ -9,7 +9,7 @@ dependencies:
 id: saunacamp_login
 theme: saunacamp
 region: '-1'
-weight: 0
+weight: 2
 provider: null
 plugin: user_login_block
 settings:
