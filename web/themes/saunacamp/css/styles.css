@@ -19,6 +19,7 @@ body {
 
 .l-dries {
   background: #77ae40;
+  overflow: hidden;
 }
 .l-dries img {
   width: 110%;

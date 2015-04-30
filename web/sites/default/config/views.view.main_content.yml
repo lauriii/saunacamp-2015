@@ -173,7 +173,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: "<p>Drupal Saunacamp is here again welcoming all the Drupalists to learn, collaborate and have fun!</p>\n<p>Stay tuned, more information will be published soon!</p>"
+            value: "<p>Drupal Saunacamp will be organized in Helsinki at 12.-13.6 welcoming all the Drupalists to learn, collaborate and have fun!</p>\n<p>Saunacamp is small version of DrupalCamp and will include few presentations, sauna and sprints.</p>\n<p>Stay tuned, more information will be published soon!</p>"
             format: basic_html
           plugin_id: text
       footer: {  }
