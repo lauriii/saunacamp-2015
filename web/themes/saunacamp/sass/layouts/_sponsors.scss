@@ -1,0 +1,21 @@
+.l-sponsors {
+  a {
+    color: $green;
+  }
+
+  h1,p {
+    text-align: center;
+  }
+  p:first-child {
+    margin-bottom: 0;
+  }
+
+  p:not(:first-child):not(:last-child) {
+    margin: 0;
+  }
+
+  p:last-child {
+    margin-top: 0;
+    margin-bottom: 53.5999984741211px;
+  }
+}

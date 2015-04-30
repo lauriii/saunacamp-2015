@@ -79,6 +79,23 @@ body {
   text-align: center;
 }
 
+.l-sponsors a {
+  color: #77ae40;
+}
+.l-sponsors h1, .l-sponsors p {
+  text-align: center;
+}
+.l-sponsors p:first-child {
+  margin-bottom: 0;
+}
+.l-sponsors p:not(:first-child):not(:last-child) {
+  margin: 0;
+}
+.l-sponsors p:last-child {
+  margin-top: 0;
+  margin-bottom: 53.5999984741211px;
+}
+
 .l-twitter-feed {
   background-color: #000000;
   color: #FFFFFF;
