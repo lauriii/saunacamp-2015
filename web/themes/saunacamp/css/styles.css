@@ -1,4 +1,8 @@
 /* No files to import found in abstractions/**\/* */
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   font-size: 2em;
 }
@@ -19,11 +23,13 @@ body {
 
 .l-dries {
   background: #77ae40;
-  overflow: hidden;
 }
 .l-dries img {
   width: 110%;
   height: auto;
+  -ms-transform: rotate(-5deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-5deg);
   transform: rotate(-5deg);
   margin-left: -5%;
   margin-right: -5%;
