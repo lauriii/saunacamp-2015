@@ -1,8 +1,13 @@
 .l-twitter-feed {
   background-color: $main-color-2;
-  padding: 150px 0;
+  color: $text-inverse;
+  padding: 50px 0;
+  text-align: center;
   .twitter-timeline {
     margin: 0 auto!important;
     display: block!important;
+  }
+  h2 {
+    padding-bottom: 10px;
   }
 }
