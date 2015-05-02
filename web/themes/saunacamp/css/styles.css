@@ -44,6 +44,16 @@ body {
   color: #FFFFFF;
 }
 
+.l-google-maps iframe {
+  width: 100%;
+  height: 250px;
+}
+@media (min-width: 1024px) {
+  .l-google-maps iframe {
+    height: 400px;
+  }
+}
+
 .l-header {
   position: relative;
 }
@@ -82,9 +92,6 @@ body {
 .l-sponsors a {
   color: #77ae40;
 }
-.l-sponsors h1, .l-sponsors p {
-  text-align: center;
-}
 .l-sponsors p:first-child {
   margin-bottom: 0;
 }
@@ -114,6 +121,9 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 40px;
+}
+.l-wrapper h1, .l-wrapper p {
+  text-align: center;
 }
 
 /* No files to import found in blocks/**\/* */
