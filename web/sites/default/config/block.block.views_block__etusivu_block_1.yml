@@ -1,0 +1,26 @@
+uuid: a52d505f-824a-4168-9200-da10d348bb97
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.etusivu
+  module:
+    - views
+  theme:
+    - saunacamp
+id: views_block__etusivu_block_1
+theme: saunacamp
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:etusivu-block_1'
+settings:
+  id: 'views_block:etusivu-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  cache:
+    max_age: -1
+  views_label: ''
+  items_per_page: none
+visibility: {  }

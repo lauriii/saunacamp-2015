@@ -12,7 +12,7 @@ dependencies:
 id: front_page_description
 theme: saunacamp
 region: content
-weight: -5
+weight: -7
 provider: null
 plugin: 'views_block:main_content-block_1'
 settings:

@@ -15,18 +15,17 @@ bundle: page
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     settings: {  }
     third_party_settings: {  }
+    label: hidden
   field_presentation:
-    weight: 102
-    label: above
+    type: entity_reference_label
+    weight: 1
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
-  links:
-    weight: 101
-hidden: {  }
+    label: hidden
+hidden:
+  links: true

@@ -255,9 +255,9 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
       cacheable: false
-  attachment_1:
-    display_plugin: attachment
-    id: attachment_1
+  block_1:
+    display_plugin: block
+    id: block_1
     display_title: Sponsors
     position: 2
     display_options:
@@ -323,8 +323,8 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: thumbnail
-            image_link: content
+            image_style: medium
+            image_link: ''
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -347,7 +347,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<a href="{{ field_company_homepage-value }}">{{ field_logo }}</a>'
+            text: '<a href="{{ field_company_homepage }}">{{ field_logo }}</a>'
             make_link: false
             path: ''
             absolute: false
@@ -400,9 +400,6 @@ display:
           field_api_classes: false
           plugin_id: field
       display_description: ''
-      displays:
-        page_1: page_1
-      attachment_position: after
     cache_metadata:
       contexts:
         - 'languages:language_content'

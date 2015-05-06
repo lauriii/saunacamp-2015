@@ -3,4 +3,11 @@
   color: $text-inverse;
   padding: 70px 0 280px;
   text-align: center;
+  .view-content {
+    display: table;
+    margin: 0 auto;
+  }
+  .views-row {
+    float: left;
+  }
 }

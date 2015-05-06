@@ -88,6 +88,13 @@ body {
   padding: 70px 0 280px;
   text-align: center;
 }
+.l-main .view-content {
+  display: table;
+  margin: 0 auto;
+}
+.l-main .views-row {
+  float: left;
+}
 
 .l-sponsors a {
   color: #77ae40;
