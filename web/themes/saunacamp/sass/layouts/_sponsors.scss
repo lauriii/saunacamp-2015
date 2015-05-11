@@ -1,19 +1,36 @@
 .l-sponsors {
+  background-color: $black;
+
   a {
     color: $green;
   }
 
+  p {
+    color: $white;
 
-  p:first-child {
-    margin-bottom: 0;
+    &:first-child {
+      padding-top: 130px;
+      margin-bottom: 0;
+    }
+
+    &:not(:first-child):not(:last-child) {
+      margin: 0;
+    }
+
+    &:last-child {
+      margin-top: 0;
+      padding-bottom: 130px;
+    }
+  }
+}
+
+.l-sponsors-lift {
+  .view-content {
+    display: table;
+    margin: 0 auto;
   }
 
-  p:not(:first-child):not(:last-child) {
-    margin: 0;
-  }
-
-  p:last-child {
-    margin-top: 0;
-    margin-bottom: 80px;
+  .views-row {
+    float: left;
   }
 }

@@ -96,10 +96,17 @@ body {
   float: left;
 }
 
+.l-sponsors {
+  background-color: #000000;
+}
 .l-sponsors a {
   color: #77ae40;
 }
+.l-sponsors p {
+  color: #FFFFFF;
+}
 .l-sponsors p:first-child {
+  padding-top: 130px;
   margin-bottom: 0;
 }
 .l-sponsors p:not(:first-child):not(:last-child) {
@@ -107,7 +114,15 @@ body {
 }
 .l-sponsors p:last-child {
   margin-top: 0;
-  margin-bottom: 80px;
+  padding-bottom: 130px;
+}
+
+.l-sponsors-lift .view-content {
+  display: table;
+  margin: 0 auto;
+}
+.l-sponsors-lift .views-row {
+  float: left;
 }
 
 .l-twitter-feed {

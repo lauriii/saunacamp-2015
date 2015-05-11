@@ -1,4 +1,4 @@
-uuid: a52d505f-824a-4168-9200-da10d348bb97
+uuid: e1e92ed4-887f-4ba9-bc00-a4883db4b236
 langcode: en
 status: true
 dependencies:
@@ -8,17 +8,17 @@ dependencies:
     - views
   theme:
     - saunacamp
-id: views_block__etusivu_block_1
+id: views_block__etusivu_block_1_2
 theme: saunacamp
-region: content
-weight: -5
+region: sponsors
+weight: -7
 provider: null
 plugin: 'views_block:etusivu-block_1'
 settings:
   id: 'views_block:etusivu-block_1'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   cache:
     max_age: -1
   views_label: ''

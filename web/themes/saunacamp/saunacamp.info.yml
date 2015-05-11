@@ -17,4 +17,5 @@ regions:
   page_bottom: 'Page bottom'
   messages: Messages
   content: Content
+  sponsors: 'Sponsors'
   footer: 'Footer'
