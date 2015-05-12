@@ -27,13 +27,39 @@
 .l-sponsors-lift {
   .view-content {
     display: table;
-    margin: 0 auto;
+    width: 100%;
   }
 
   .views-row {
     float: left;
-    padding-right: 50px;
-    padding-bottom: 150px;
+    padding-right: 1%;
+    padding-bottom: 50px;
     height: 250px;
+    display: table;
+    width: 99%;
+
+    a {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    img {
+      max-width: 250px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    @include breakpoint(768px) {
+      width: 49%;
+    }
+
+    @include breakpoint(1024px) {
+      width: 24%;
+    }
   }
 }
