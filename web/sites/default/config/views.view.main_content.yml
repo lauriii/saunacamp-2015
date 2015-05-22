@@ -173,8 +173,8 @@ display:
           empty: true
           tokenize: false
           content:
-            value: "<p>Drupal Saunacamp will be organized in Helsinki at 12.-13.6 welcoming all the Drupalists to learn, collaborate and have fun!</p>\n<p>Saunacamp is small version of DrupalCamp and will include few presentations, sauna and sprints.</p>\n<p>Stay tuned, more information will be published soon!</p>"
-            format: basic_html
+            value: "<p>Drupal Saunacamp will be organized in Helsinki at 12.-13.6 welcoming all the Drupalists to learn, collaborate and have fun!</p>\n<p>Saunacamp is small version of DrupalCamp and will include few presentations, sauna and sprints.</p>\n<p><a href=\"https://www.eventbrite.com/e/saunacamp-helsinki-2015-tickets-16896563075\">Register NOW! </a></p>"
+            format: full_html
           plugin_id: text
       footer: {  }
       empty: {  }
