@@ -2,20 +2,24 @@
   background: $main-color-2;
   color: $text-inverse;
   padding: 70px 0 280px;
-  position: relative;
   text-align: center;
-  z-index: 10;
-
+  position: relative;
+  z-index: 19;
   .view-content {
     display: table;
     margin: 0 auto;
   }
-
   .views-row {
     float: left;
   }
-
-  a {
-    color: $green;
+  .view-header a {
+    background-color: $green;
+    color: white;
+    padding: 12px 20px;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    &:hover {
+      background: darken($green, 20%);
+    }
   }
 }

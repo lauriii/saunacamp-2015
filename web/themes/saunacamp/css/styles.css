@@ -88,9 +88,9 @@ body {
   background: #000000;
   color: #FFFFFF;
   padding: 70px 0 280px;
-  position: relative;
   text-align: center;
-  z-index: 10;
+  position: relative;
+  z-index: 19;
 }
 .l-main .view-content {
   display: table;
@@ -99,8 +99,15 @@ body {
 .l-main .views-row {
   float: left;
 }
-.l-main a {
-  color: #77ae40;
+.l-main .view-header a {
+  background-color: #77ae40;
+  color: white;
+  padding: 12px 20px;
+  transition-property: background-color;
+  transition-duration: 0.1s;
+}
+.l-main .view-header a:hover {
+  background: #446325;
 }
 
 .l-presentations {
