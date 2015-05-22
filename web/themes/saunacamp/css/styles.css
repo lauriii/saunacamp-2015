@@ -60,7 +60,7 @@ body {
 
 .l-header__left,
 .l-header__right {
-  height: 70%;
+  height: 100%;
   width: 50%;
   top: 0;
   position: absolute;
@@ -68,17 +68,17 @@ body {
 @media (min-width: 1500px) {
   .l-header__left,
   .l-header__right {
-    height: 95%;
+    height: 100%;
   }
 }
 
 .l-header__left {
-  background: linear-gradient(to right bottom, #77ae40 50%, rgba(0, 0, 0, 0) 50%);
+  background: #77ae40;
   left: 0;
 }
 
 .l-header__right {
-  background: linear-gradient(to left bottom, #000000 50%, rgba(0, 0, 0, 0) 50%);
+  background: #000000;
   right: 0;
 }
 
@@ -86,7 +86,9 @@ body {
   background: #000000;
   color: #FFFFFF;
   padding: 70px 0 280px;
+  position: relative;
   text-align: center;
+  z-index: 10;
 }
 .l-main .view-content {
   display: table;
@@ -204,8 +206,29 @@ body {
 /* No files to import found in blocks/**\/* */
 .c-logo {
   display: block;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  z-index: 10;
+}
+.c-logo:after {
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -moz-transform-origin: 0 0 0;
+  -ms-transform-origin: 0 0 0;
+  -webkit-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  background: white;
+  content: '';
+  height: 150%;
+  left: 50%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 155%;
+  z-index: -20;
 }
 
 .c-logo__image {

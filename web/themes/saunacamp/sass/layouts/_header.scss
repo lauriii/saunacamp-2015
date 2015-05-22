@@ -4,19 +4,21 @@
 
 .l-header__left,
 .l-header__right {
-  height: 70%;
+  height: 100%;
   @include breakpoint($wide) {
-    height: 95%;
+    height: 100%;
   }
   width: 50%;
   top: 0;
   position: absolute;
 }
+
 .l-header__left {
-  background: linear-gradient(to right bottom, $main-color-1 50%, transparent 50%);
+  background: $green;
   left: 0;
 }
+
 .l-header__right {
-  background: linear-gradient(to left bottom, $main-color-2 50%, transparent 50%);
+  background: $black;
   right: 0;
 }
