@@ -39,6 +39,11 @@
     display: table;
     width: 99%;
 
+    &:nth-child(5) {
+      margin: 0 auto;
+      float: none;
+    }
+
     a {
       display: table-cell;
       vertical-align: middle;
