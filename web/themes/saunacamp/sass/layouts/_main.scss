@@ -22,4 +22,16 @@
       background: darken($green, 20%);
     }
   }
+  span.secret:after {
+    content: "spirits";
+    font-size: 0;
+  }
+
+  span.secret:hover {
+    font-size: 0;
+  }
+
+  span.secret:hover:after {
+    font-size: 40px;
+  }
 }
